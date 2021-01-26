@@ -8,8 +8,7 @@
   - date code on the back: 20-5-15
   - supposedly discontinued
   - ESP32-WROVER-B with 8MB of PSRAM (from which 4MB can be easily accessible from Arduino sketch) 
-
-- See the comment behin ETH_CLK_MODE in the code to change it if you have a v1.2 board
+- See the comment behind ETH_CLK_MODE in the code to change it if you have a v1.2 board
 
 ## Arduino IDE settings for this specific board
 - Board: ESP32 WROVER module
