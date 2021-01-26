@@ -1,5 +1,10 @@
 /*  simple sketch to test the basic functionality of 
  *  LILYGO® TTGO T-Internet-POE ESP32-WROOM LAN8720A Chip Ethernet Adapter
+ *  http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1307&FId=t3:50033:3
+ *
+ *  based on example code found:
+ *  https://github.com/Xinyuan-LilyGO/LilyGO-T-ETH-POE
+ *  https://github.com/SensorsIot/ESP32-Ethernet see also: https://www.youtube.com/watch?v=v8JodmdxIKU
  *  
  *  Arduino IDE settings:
  *  Board: ESP32 WROVER module
