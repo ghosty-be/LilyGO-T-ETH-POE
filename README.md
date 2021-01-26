@@ -23,5 +23,5 @@
 - You can connect/power the board in 3 ways:
   - Connect the Ethernet interface to a PoE port
   - Connect the Ethernet interface to a non-PoE port and connect the USB-C interface onboard to 5V (power only, no programming interface!)
-  - Connect the Ethernet interface to a non-PoE port, attach the programming board to the backside and connect this last one through USB-C or micro-USB to 5V power 
+  - Connect the Ethernet interface to a non-PoE port, attach the programming module to the backside and connect this last one through USB-C or micro-USB to 5V power 
 - When you attach the programming module you should disconnect power through the USB-C port onboard (and I guess the same goes if you connect to PoE delivery port)!
