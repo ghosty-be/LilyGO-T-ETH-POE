@@ -1,21 +1,24 @@
 # LilyGO-T-ETH-POE (aka: TTGO T-Internet-POE)
 
-## Board Type
-- My board indicates v1.0 on the back
+- Official module info: http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1307&FId=t3:50033:3
+- Example code: https://github.com/Xinyuan-LilyGO/LilyGO-T-ETH-POE
+
+## Module Type
+- My circuitboard indicates v1.0 on the back
   - date code on the back: 20-7-20 
   - ESP32-WROOM without PSRAM
 - There also exists a v1.2 
   - date code on the back: 20-5-15
   - supposedly discontinued
   - ESP32-WROVER-B with 8MB of PSRAM (from which 4MB can be easily accessible from Arduino sketch) 
-- See the comment behind ETH_CLK_MODE in the code to change it if you have a v1.2 board
+  - See the comment behind ETH_CLK_MODE in the code to change it if you have a v1.2 board
 
 ## Arduino IDE settings for this specific board
 - Board: ESP32 WROVER module
 - Upload speed: 115200
 - the other settings I left to default
 
-## Some information and notes on this board
+## Some additional information and notes
 - The onboard blue LED near the USB-C port is only a power indicator (hard wired between 3,3V and GND)
 - You can connect/power the board in 3 ways:
   - Connect the Ethernet interface to a PoE port
